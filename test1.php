@@ -13,3 +13,4 @@ include_once "includes/classes/Table.php";
 //echo Coliseum::getColiseumById(3);
 //echo Coliseum::getAllAreas();
 echo Coliseum::getColiseumTimes(3);
+echo 'samadam';
