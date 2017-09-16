@@ -8,4 +8,4 @@
 define("HOST_NAME","localhost");
 define("USER","root");
 define("PASS","");
-define("DB_NAME","pazanan");
+define("DB_NAME","pazan");
