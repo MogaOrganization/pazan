@@ -12,5 +12,7 @@ include_once "../../../includes/pazanan_autoloader.php";
 include_once "../../../includes/classes/Table.php";
 if (isset($_GET['fields'])) {
     $fields = $_GET['fields'];
+} else {
+    $fields = [];
 }
 echo Coliseum::getAllColiseum(...$fields);
